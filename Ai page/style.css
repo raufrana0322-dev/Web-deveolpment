@@ -1,0 +1,138 @@
+*body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+.navbar{
+    /* background-color: black; */
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0.5rem 3rem;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 1;
+
+
+}
+.logo img {
+width: 60px;
+height: 60px;
+
+text-align:left;
+}
+.nav-list{
+    display: flex;
+    gap:5rem;
+    align-items: center;
+    text-decoration: none;
+}
+.nav-list :hover{
+    color: aquamarine;
+}
+.Hero-section img{
+    width: 100vw;
+    background-image: url(digital\ brain.jpg);
+}
+.Hero-section h4{
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.box1 img{
+    width: 100vw;
+    height: 800px;
+   
+
+}
+.box1 p{
+     font-size: 35px;
+}
+.box2 img{
+    width: 100vw;
+    height: 800px;
+    background-image: url(robot.jpg);
+}
+.box2 p{
+    font-size: 35px;
+}
+.new-employee h2{
+
+    display: flex;
+    padding-left:35rem;
+    color:black;
+    font-size:20px;
+    font-weight:bold ;
+    
+}
+.new-employee button{
+    display: flex;
+    margin-left:35rem;
+    font-size: 12px;
+}
+.new-employee button:Hover{
+    background-color: cadetblue;
+}
+.footer{
+    background-color: slateblue;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+
+}
+.sectionA{
+    display: flex;
+    
+}
+.section h1{
+    font-weight: bold;
+}
+.sectionD img {
+width: 25px;
+}
+.para{
+    width: 300px;
+    align-items: center;
+}
+.sectionD {
+    padding-right: 0.4rem;
+}
+
+.social-image{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.follow{
+    font-weight: bold;
+    
+}
+/* .sectionA para{
+    padding-left: 2rem;
+
+}
+.sectionA h2{
+    padding-top: 0rem;
+} */
+ @media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+ }
+ @media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+ }
